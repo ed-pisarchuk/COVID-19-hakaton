@@ -1,17 +1,15 @@
 # resolved_case
 Task from factory
 
-pytrends.ipynb - основной файл для получения данных из Google Trends
+pytrends.ipynb - основной файл для получения данных из Google Trends. Для MVP по трем странам (Китай, Россия и США) получен датафрейм 749384 rows × 39 columns. Его пример (sample на 50 000 строк) - daily_stat_by_countries_sample.csv
 
-Для MVP по трем странам (Китай, Россия и США) получен датафрейм 749384 rows × 39 columns. Его пример (sample на 50 000 строк) - daily_stat_by_countries_sample.csv
-
+create_mvp_dataset.ipynb - немного визуализации данных и подготовка датасета для дальнейшего анализ
 
 ### Другие датасеты и вспомогательные данные:
-\textbf{parsing_ISO_country_codes.ipynb} - код парсинга перечня стран и их ISO кодов из википедии (в результате получился ISO_contry_codes.csv)
+ISO_country_codes - код парсинга перечня стран и их ISO кодов из википедии (в результате получился ISO_contry_codes.csv)
 
-daily_covid_stat_world.csv - ежедневная мировая статистика распространения ковид (Google Trends)
+usa_codes.csv - список почтовых кодов штатов США
 
-GT_total_search_cases.csv - общее количество Google Trends поисковых запросов с 2019-10-01 по 2021-04-09
+United_States_COVID-19_Cases_and_Deaths_by_State_over_Time.csv - официальная статистика для каждого шатата. Centers for Disease Control and Prevention (CDC)
 
-monthly_stat_by_USA_from_2019-10-01_to_2020-11-01.csv - ежемесячная статистика Google Trends поисковых запросов для США с 2019-10-01 по 2020-11-01
-
+final_mvp_usa_df.csv - объединенный датасет
